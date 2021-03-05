@@ -232,13 +232,25 @@ img {
 /* ADVANTAGES END */
 
 /* COMPANY SKILLS */
+
+.skills {
+  display: flex;
+  padding-bottom: 94px;
+}
+
 .company-description {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
+
+.skills-gallary-item {
+  flex-basis: calc((100% - 30px) / 3);
+}
+
 /* END - COMPANY SKILLS */
 
 /* TEAM */
