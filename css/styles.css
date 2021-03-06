@@ -77,6 +77,7 @@ img {
   padding-top: 25px;
   padding-bottom: 25px;
   border: 1px solid #ececec;
+  border-top: none;
 }
 
 .container {
@@ -275,12 +276,12 @@ img {
 }
 
 .team-list-item {
-  flex-basis: calc((100% - 120px) / 4);
-  margin-right: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--third-text-color);
+  flex-basis: calc((100% - 120px) / 4);
+  margin-right: 30px;
 }
 
 .team-member-description {
@@ -310,6 +311,25 @@ img {
 
 /* GALLERY */
 
+.project-gallery {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.filter-btn-list {
+  display: flex;
+  text-align: center;
+}
+
+.filter-btn-list {
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.filter-btn-list-items:not(:last-child) {
+  margin-right: 8px;
+}
+
 .filter-btn {
   font-family: inherit;
   font-weight: 500;
@@ -319,12 +339,36 @@ img {
   letter-spacing: 0.03em;
   cursor: pointer;
   background-color: var(--light-background-color);
+  border-radius: 4px;
+  border: none;
+  padding: 6px;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: var(--second-alternative-accent-color);
   color: var(--third-text-color);
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+}
+
+.project-item {
+  flex-basis: calc((100% - 270px) / 3);
+  margin-right: 30px;
+}
+
+.project-list:nth-last-child(-n + 3) {
+  margin-bottom: 30px;
+}
+
+.project-item-description {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .project-title {
