@@ -195,22 +195,22 @@ img {
 
 /* ПРЕИМУЩЕСТВА */
 
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+
 .advantages .container {
   display: flex;
 }
 
 .advantages-list {
   display: flex;
-  justify-content: space-between;
-  padding: 94px 0;
-}
-
-.advantages-list-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: -30px;
 }
 
 .advantages-list-item {
-  max-width: 270px;
+  flex-basis: calc((100% - 120px) / 4);
 }
 
 .advantages-list-title {
@@ -234,6 +234,7 @@ img {
 /*РОД ДЕЯТЕЛЬНОСТИ*/
 
 .company-skills {
+  padding-top: 47px;
   padding-bottom: 94px;
 }
 
@@ -263,6 +264,8 @@ img {
 
 .team {
   background-color: var(--light-background-color);
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .team-list {
@@ -280,13 +283,9 @@ img {
   background-color: var(--third-text-color);
 }
 
-.team .container {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-
-.team-member-photo {
-  margin-bottom: 30px;
+.team-member-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-member-name {
@@ -347,6 +346,20 @@ img {
 /* FOOTER */
 .footer {
   background-color: var(--dark-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address-list,
+.address-list-item,
+.address-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .logo {
+  display: block;
+  margin-bottom: 20px;
 }
 
 .logo-dark-background {
@@ -365,6 +378,11 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--alternative-second-text-color);
+  display: block;
+}
+
+.address-list-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address-contact:hover,
