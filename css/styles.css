@@ -341,7 +341,7 @@ img {
   background-color: var(--light-background-color);
   border-radius: 4px;
   border: none;
-  padding: 6px;
+  padding: 6px 22px;
 }
 
 .filter-btn:hover,
