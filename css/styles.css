@@ -207,11 +207,14 @@ img {
 
 .advantages-list {
   display: flex;
-  margin-right: -30px;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .advantages-list-item {
   flex-basis: calc((100% - 120px) / 4);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .advantages-list-title {
@@ -242,7 +245,8 @@ img {
 .skills {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .company-description {
@@ -256,7 +260,8 @@ img {
 
 .skills-gallary-item {
   flex-basis: calc((100% - 90px) / 3);
-  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 /* END - РОД ДЕЯТЕЛЬНОСТИ */
@@ -272,7 +277,8 @@ img {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .team-list-item {
@@ -281,7 +287,8 @@ img {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--third-text-color);
   flex-basis: calc((100% - 120px) / 4);
-  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .team-member-description {
@@ -353,12 +360,14 @@ img {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .project-item {
   flex-basis: calc((100% - 270px) / 3);
-  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .project-list:nth-last-child(-n + 3) {
