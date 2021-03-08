@@ -23,7 +23,6 @@ body {
 .link {
   text-decoration: none;
   color: var(--main-text-color);
-  padding: 2px;
 }
 
 .list {
@@ -75,8 +74,6 @@ img {
 .header {
   display: flex;
   align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -119,6 +116,8 @@ img {
   letter-spacing: 0.03em;
   color: var(--logo-light-theme-color);
   margin-right: 90px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo-part {
@@ -141,6 +140,13 @@ img {
 .contact:hover,
 .contact:focus {
   color: var(--accent-color);
+}
+
+.navigation-link,
+.contact-mail,
+.contact-tel {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contact-mail,
@@ -423,6 +429,7 @@ img {
   display: block;
   margin-right: 0;
   margin-bottom: 20px;
+  padding: 0;
 }
 
 .logo-dark-background {
