@@ -108,6 +108,10 @@ img {
   margin-left: auto;
 }
 
+.contact-items:not(:last-child) {
+  margin-right: 50px;
+}
+
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -156,10 +160,6 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
-}
-
-.contact-mail {
-  margin-right: 50px;
 }
 
 /* HEADER END */
